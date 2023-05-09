@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: inter;
+    src: url(Inter.ttf);
+}
+body {
+    background-image: url(sushi.jpg);
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #070F11;
+}
+.container {
+    display: inline-block;
+    margin-left: 2%;
+}
+.text1 {
+    position: absolute;
+    top: 0;
+}
+.text2 {
+    position: absolute;
+    bottom: 4%;
+}
+.kanji {
+    font-family: inter;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.tamashi {
+    font-family: inter;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.slogan {
+    font-family: inter;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+}
